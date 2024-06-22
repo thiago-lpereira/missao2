@@ -1,4 +1,4 @@
-name: App python teste #nome do teste
+name: App python teste para prod #nome do teste
 
 # trigger (gatilho)
 on: 
