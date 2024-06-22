@@ -27,7 +27,7 @@ jobs:
         
       - name: Executar testes
         run: |
-          coverage run -m app
+          coverage run -m site_jujutsu/app.py
           
       - name: Resultados
         run: coverage report
