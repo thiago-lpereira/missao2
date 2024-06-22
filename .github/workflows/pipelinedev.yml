@@ -25,4 +25,4 @@ jobs:
           pip install -r requerements.txt
         
       - name: Rodando o site
-        run: run -m site_jujutsu
+        run: ./site_jujutsu
