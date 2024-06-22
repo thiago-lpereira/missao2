@@ -1,3 +1,5 @@
+# site_jujutsu/teste_app.py
+
 import unittest
 from site_jujutsu.app import app
 
@@ -10,7 +12,7 @@ class BasicTests(unittest.TestCase):
     def test_home(self):
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"Hello, World!", response.data)  # Ajuste conforme o conteúdo do index.html
+        self.assertIn(b"Jujutsu Kaisen", response.data)  # Ajuste conforme o conteúdo do index.html
 
 if __name__ == "__main__":
     unittest.main()
